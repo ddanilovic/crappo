@@ -1,0 +1,17 @@
+//fonts
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+}
+
+@import "./globals.scss";
+
+@import "../components/Hero/_hero.scss";
+
+@import "../components/Navbar/_navbar.scss";
+
+@import "../components/Why/_why.scss";
+
+@import "../components/Features/_features.scss";
+
+@import "../components/Footer/_footer.scss";
