@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+  .navbar__logo {
+    & img {
+    }
+  }
+}
+
+.navbar__links {
+  display: none;
+}
+
+.navbar__hamburger {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+@media (min-width: 930px) {
+  .navbar__links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .navbar__hamburger {
+    display: none;
+  }
+}
