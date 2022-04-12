@@ -1,15 +1,21 @@
 .why_wrapper {
+  @extend .container;
+
   padding-bottom: 20%;
 
   h2 {
     text-align: center;
     font-size: 60px;
+    margin: 0;
+    padding: 50px 0;
+    color: white;
   }
   p {
     text-align: center;
     margin: 0 auto;
     font-size: 18px;
     max-width: 650px;
+    color: $grey;
   }
 }
 .why_icons {
@@ -25,11 +31,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: $grey;
+
+  h3 {
+    color: $grey;
+  }
 }
 .why_icon {
   width: 80px;
   height: 80px;
-  margin-top: 5%;
+  padding-top: 5%;
   img {
     width: 100%;
   }

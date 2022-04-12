@@ -1,6 +1,9 @@
 .features_wrapper {
+  @extend .container;
+  padding-bottom: 100px;
+
   .feature {
-    margin-top: 10%;
+    padding-top: 10%;
   }
 
   .feature_img {

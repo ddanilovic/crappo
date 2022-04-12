@@ -1,22 +1,27 @@
 .footer_wrapper {
+  @extend .container;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   padding-bottom: 30px;
-  margin-top: 30px;
-  .footer_social {
-    display: flex;
-    margin-bottom: 20;
 
-    .footer_icon {
-      //   width: 50px;
-      //   height: 50px;
-      padding: 5px;
-      & svg {
-        width: 40px;
-        height: 40px;
-        color: gray;
-      }
+  p {
+    color: gray;
+  }
+}
+
+.footer_social {
+  display: flex;
+  margin-bottom: 20;
+
+  .footer_icon {
+    //   width: 50px;
+    //   height: 50px;
+    padding: 5px;
+    & svg {
+      width: 40px;
+      height: 40px;
+      color: gray;
     }
   }
 }
@@ -25,5 +30,7 @@
   .footer_wrapper {
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px 0;
+    padding-bottom: 50px;
   }
 }

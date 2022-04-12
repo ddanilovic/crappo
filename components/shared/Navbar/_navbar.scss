@@ -1,4 +1,5 @@
 .navbar {
+  @extend .container;
   display: flex;
   background-color: transparent;
   justify-content: space-between;

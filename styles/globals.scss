@@ -1,17 +1,25 @@
+//colors
+$bg1: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+$bg2: radial-gradient(circle, rgba(97, 97, 97, 1) 0%, rgba(0, 0, 0, 1) 100%);
+$grey: #7c7c7b;
+$black: #000000;
+
+.bg1 {
+  background: $bg1;
+}
+.bg2 {
+  background: $black;
+}
+.bg3 {
+  background: rgba(0, 0, 0, 1);
+}
+
 h2 {
-  font-size: 40px;
+  // font-size: 40px;
 }
 
 .container {
-  padding: 0 1rem;
   max-width: 1300px;
+  padding: 0 1rem;
   margin: 0 auto;
-}
-
-.first {
-  background: linear-gradient(
-    90deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
-  );
 }
