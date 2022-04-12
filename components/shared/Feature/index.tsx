@@ -1,26 +1,45 @@
 import React from "react";
 
-const Feature = ({ title, text, image }) => {
+type FeatureListItem = {
+  title: string;
+  id: number;
+  image: string;
+  text: string;
+};
+
+type FeatureDocument = {
+  title: string;
+  list?: [FeatureListItem];
+  image: string;
+  text?: string;
+};
+
+const Feature = ({ title, text, image, list }: FeatureDocument) => {
   return (
-    <section className="feature features_one">
-      <h2>{title}</h2>
-      <p>{text}</p>
-      <div className="feature_list">
-        {[1, 2, 3].map((id) => {
-          return (
-            <div className="feature_list_item" key={id}>
-              <div className="feature_list_img">
-                <img src="/static/icons/deploy-service.png" alt="deploy" />
-              </div>
-              <p>Say goodbye to eye-watering gas fees</p>
-            </div>
-          );
-        })}
+    <React.Fragment>
+      <div className="feature_text">
+        <h2>{title}</h2>
+        {text && <p>{text}</p>}
+        {list && (
+          <div className="feature_list">
+            {list.map((item: FeatureListItem) => {
+              return (
+                <div className="feature_list_item" key={item.id}>
+                  <div className="feature_list_img">
+                    <img src={`/static/${item.image}`} alt={item.title} />
+                  </div>
+                  <p>{item.text}</p>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
+
       <div className="feature_img">
         <img src={`/static/${image}`} />
       </div>
-    </section>
+    </React.Fragment>
   );
 };
 

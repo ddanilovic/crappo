@@ -1,4 +1,8 @@
 .features_wrapper {
+  .feature {
+    margin-top: 10%;
+  }
+
   .feature_img {
     & img {
       width: 100%;
@@ -13,5 +17,11 @@
         width: 100%;
       }
     }
+  }
+}
+
+@media (min-width: 930px) {
+  .feature {
+    display: flex;
   }
 }

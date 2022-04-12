@@ -6,6 +6,7 @@ import Navbar from "../components/shared/Navbar";
 import Why from "../components/main/Why";
 import Features from "../components/main/Features";
 import Footer from "../components/shared/Footer";
+import Action from "../components/main/Action";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
           <Hero />
           <Why />
           <Features />
+          <Action />
           <Footer />
         </div>
       </div>
