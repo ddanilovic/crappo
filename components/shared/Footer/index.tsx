@@ -5,7 +5,9 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 const Footer = () => {
   return (
     <React.Fragment>
-      <hr style={{ margin: "0 auto", maxWidth: "1300px" }} />
+      {/* <div style={{ maxWidth: "1300px", marginRight: 50 }}>
+        <hr />
+      </div> */}
 
       <div className="footer_wrapper">
         <p>

@@ -15,8 +15,8 @@ const Hero = () => {
           price execution, super low fees and reliability.
         </p>
         <div className="hero__header__buttons">
-          <Button variant="contained">Start Trading</Button>
-          <Button variant="contained">Add liquidity</Button>
+          <Button variant="outlined">Start Trading</Button>
+          <Button variant="outlined">Add liquidity</Button>
         </div>
       </div>
       <div className="hero__image">

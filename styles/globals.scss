@@ -13,11 +13,23 @@ $white: #ffffff;
   background: $bg2;
 }
 .bg3 {
-  background: $bg1;
+  background: linear-gradient(
+    180deg,
+    rgba(73, 31, 152, 1) 0%,
+    rgba(13, 13, 43, 1) 30%
+  );
 }
 
 h2 {
   // font-size: 40px;
+}
+
+h3 {
+  color: $white;
+}
+
+p {
+  color: $light-gray;
 }
 
 .container {

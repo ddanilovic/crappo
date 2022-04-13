@@ -22,7 +22,7 @@ const Features = () => {
           your funds our absolute top priority. We’ve received multiple audits
           from Open Zeppelin and Trail of Bits, as well as code reviews from
           white hat researchers."
-          image={`ws-img.svg`}
+          image={`ws-img2.svg`}
         />
       </section>
       <section className="feature features_three">
@@ -44,7 +44,7 @@ const Features = () => {
           your funds our absolute top priority. We’ve received multiple audits
           from Open Zeppelin and Trail of Bits, as well as code reviews from
           white hat researchers."
-          image={`ws-img.svg`}
+          image={`ws-img2.svg`}
         />
       </section>
     </div>

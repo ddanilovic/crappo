@@ -1,3 +1,15 @@
+.feature_text {
+  h3 {
+    color: $white;
+    font-size: 40px;
+  }
+  p {
+    color: $light-gray;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+}
+
 .feature_img {
   & img {
     width: 100%;
@@ -14,19 +26,9 @@
   }
 }
 
-.feature_text {
-  padding: 0 50px;
-}
-
 @media (min-width: 930px) {
   .feature_text {
     max-width: 50%;
-
-    h2 {
-      color: $white;
-    }
-    p {
-      color: $light-gray;
-    }
+    padding: 0 50px;
   }
 }

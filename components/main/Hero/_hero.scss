@@ -21,18 +21,27 @@
     font-size: 50px;
   }
   p {
+    max-width: 500px;
     font-size: 15px;
-    font-family: "Roboto";
     color: $light-gray;
   }
-  .hero__header__buttons {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+}
 
-    & button {
-      margin-top: 20px;
-    }
+.hero__header__sub {
+  font-weight: 700;
+  text-transform: uppercase;
+  p {
+    color: #5f74ea;
+  }
+}
+
+.hero__header__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  button {
+    margin-top: 20px;
   }
 }
 
@@ -55,6 +64,15 @@
       font-size: 68px;
     }
   }
+  .hero__header__buttons {
+    flex-direction: row;
+    width: auto;
+
+    button {
+      margin-right: 20px;
+    }
+  }
+
   .hero__image {
     width: 50%;
     padding-bottom: 10%;

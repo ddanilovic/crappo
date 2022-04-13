@@ -18,7 +18,7 @@ const Feature = ({ title, text, image, list }: FeatureDocument) => {
   return (
     <React.Fragment>
       <div className="feature_text">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         {text && <p>{text}</p>}
         {list && (
           <div className="feature_list">

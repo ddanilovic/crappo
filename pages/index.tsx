@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       <div className="bg3">
         <Action />
       </div>
-      <div className="bg3">
+      <div className="bg1">
         <Footer />
       </div>
     </React.Fragment>
