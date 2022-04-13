@@ -23,10 +23,10 @@ const Home: NextPage = () => {
         <Navbar />
         <Hero />
       </div>
-      <div className="bg2">
+      <div className="bg1">
         <Why />
       </div>
-      <div className="bg1">
+      <div className="bg2">
         <Features />
       </div>
       <div className="bg3">

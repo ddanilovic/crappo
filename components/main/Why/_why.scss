@@ -15,7 +15,7 @@
     margin: 0 auto;
     font-size: 18px;
     max-width: 650px;
-    color: $grey;
+    color: $light-gray;
   }
 }
 .why_icons {
@@ -31,18 +31,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: $grey;
+  color: $light-gray;
+  padding-top: 50px;
 
   h3 {
-    color: $grey;
+    color: $white;
   }
 }
 .why_icon {
   width: 80px;
   height: 80px;
-  padding-top: 5%;
+
   img {
     width: 100%;
+
+    padding-bottom: 50px;
   }
 }
 
@@ -50,5 +53,10 @@
   .why_icons {
     // height: 50vh;
     flex-direction: row;
+  }
+  .why_item {
+    p {
+      width: 70%;
+    }
   }
 }

@@ -1,5 +1,32 @@
+.feature_img {
+  & img {
+    width: 100%;
+  }
+}
+.feature_list_item {
+  display: flex;
+  .feature_list_img {
+    width: 40px;
+    height: 40px;
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+.feature_text {
+  padding: 0 50px;
+}
+
 @media (min-width: 930px) {
   .feature_text {
     max-width: 50%;
+
+    h2 {
+      color: $white;
+    }
+    p {
+      color: $light-gray;
+    }
   }
 }

@@ -5,22 +5,17 @@
   .feature {
     padding-top: 10%;
   }
+}
 
-  .feature_img {
-    & img {
-      width: 100%;
-    }
-  }
-  .feature_list_item {
-    display: flex;
-    .feature_list_img {
-      width: 40px;
-      height: 40px;
-      & img {
-        width: 100%;
-      }
-    }
-  }
+.features_one {
+  flex-direction: row-reverse;
+}
+.features_two {
+}
+.features_three {
+  flex-direction: row-reverse;
+}
+.features_four {
 }
 
 @media (min-width: 930px) {

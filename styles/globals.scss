@@ -1,17 +1,19 @@
 //colors
-$bg1: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
-$bg2: radial-gradient(circle, rgba(97, 97, 97, 1) 0%, rgba(0, 0, 0, 1) 100%);
-$grey: #7c7c7b;
+$bg1: #0d0d2b;
+$bg2: #491f98;
+$gray: #7c7c7b;
+$light-gray: #e0e0e0;
 $black: #000000;
+$white: #ffffff;
 
 .bg1 {
   background: $bg1;
 }
 .bg2 {
-  background: $black;
+  background: $bg2;
 }
 .bg3 {
-  background: rgba(0, 0, 0, 1);
+  background: $bg1;
 }
 
 h2 {
