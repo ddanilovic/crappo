@@ -11,9 +11,9 @@ const Footer = () => {
 
       <div className="footer_wrapper">
         <p>
-          Copyright blabla
+          Copyright © 2022 CRAPPO
           <br />
-          All rights reserved. | Privacy
+          All rights reserved.
         </p>
         {/* <div>
         <img src="/static/logo.svg" alt="logo" />
