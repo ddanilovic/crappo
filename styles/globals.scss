@@ -20,20 +20,49 @@ $white: #ffffff;
   );
 }
 
+.container {
+  max-width: 1300px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
 h2 {
-  // font-size: 40px;
+  font-size: 40px;
 }
 
 h3 {
   color: $white;
 }
 
-p {
-  color: $light-gray;
+a {
+  font-size: 17px;
 }
 
-.container {
-  max-width: 1300px;
-  padding: 0 1rem;
-  margin: 0 auto;
+p {
+  color: $light-gray;
+  font-size: 18px;
+}
+
+@media (min-width: 930px) {
+  h1 {
+    font-size: 68px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 17px;
+    color: $white;
+  }
+
+  p {
+    color: $light-gray;
+    font-size: 18px;
+  }
 }

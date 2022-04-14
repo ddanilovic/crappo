@@ -6,16 +6,18 @@
 
 @import "./globals.scss";
 
-@import "../components/main/Hero/_hero.scss";
+@import "../components/main/Hero/hero.scss";
 
-@import "../components/shared/Navbar/_navbar.scss";
+@import "../components/shared/Navbar/navbar.scss";
 
-@import "../components/main/Why/_why.scss";
+@import "../components/shared/Navbar/DrawerList/drawer-list";
 
-@import "../components/main/Features/_features.scss";
+@import "../components/main/Why/why.scss";
 
-@import "../components/shared/Footer/_footer.scss";
+@import "../components/main/Features/features.scss";
 
-@import "../components/shared/Feature/_feature.scss";
+@import "../components/shared/Footer/footer.scss";
 
-@import "../components/main/Action/_action.scss";
+@import "../components/shared/Feature/feature.scss";
+
+@import "../components/main/Action/action.scss";

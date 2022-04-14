@@ -1,0 +1,15 @@
+.drawer_list_wrapper {
+  background: $bg1;
+  color: white;
+  height: 100%;
+}
+
+.navbar_icon {
+  padding-left: 16px;
+  display: flex;
+
+  svg:nth-child(2) {
+    margin-left: 10px;
+  }
+  //   justify-content: space-around;
+}

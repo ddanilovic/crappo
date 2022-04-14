@@ -8,30 +8,27 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import InstagramIcon from "@mui/icons-material/Instagram";
+
+import * as routing from "../../../../utils/routing/index";
 
 const DrawerList = () => {
   return (
-    <Box role="presentation">
+    <Box role="presentation" className="drawer_list_wrapper">
       <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
+        {routing.links.map((text) => (
+          <ListItem button key={text.id}>
+            {/* <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
+            </ListItemIcon> */}
+            <ListItemText primary={text.name} />
           </ListItem>
         ))}
-      </List>
-      <Divider />
-      <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+        <div className="navbar_icon">
+          <InstagramIcon />
+          <TelegramIcon />
+        </div>
       </List>
     </Box>
   );

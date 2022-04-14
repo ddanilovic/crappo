@@ -24,6 +24,7 @@ const Navbar = () => {
           <MenuIcon />
         </Button>
         <SwipeableDrawer
+          // className="drawer_list_wrapper"
           anchor={"right"}
           open={isOpened}
           onClose={() => setIsOpened(routing.toggleDrawer(false))}
