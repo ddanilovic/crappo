@@ -28,16 +28,15 @@ export const links = [
 
 export const anchor: string = "left";
 
-export const toggleDrawer =
-  (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
-    if (
-      event &&
-      event.type === "keydown" &&
-      ((event as React.KeyboardEvent).key === "Tab" ||
-        (event as React.KeyboardEvent).key === "Shift")
-    ) {
-      return;
-    }
+export const toggleDrawer = (open: any) => (event: any) => {
+  if (
+    event &&
+    event.type === "keydown" &&
+    ((event as React.KeyboardEvent).key === "Tab" ||
+      (event as React.KeyboardEvent).key === "Shift")
+  ) {
+    return;
+  }
 
-    return open;
-  };
+  return open;
+};
