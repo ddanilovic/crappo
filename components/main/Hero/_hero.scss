@@ -47,9 +47,9 @@
 
 .hero__image {
   visibility: hidden;
-  // & img {
-  //   width: 100%;
-  // }
+  & img {
+    width: 100%;
+  }
 }
 @media (min-width: 930px) {
   .hero {
